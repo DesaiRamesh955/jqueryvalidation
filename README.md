@@ -1,7 +1,8 @@
 # jqueryvalidation
 Validate input fields using data attributes
 
-# Attributes
+
+## Attributes
 
 > - data-require="true"
 > - data-error="Please enter mobile number"
