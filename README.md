@@ -4,7 +4,7 @@ Validate input fields using data attributes
 
 ## Attributes
 
-> - data-require="true"
+> - data-require="true" (Also works in checkbox)
 > - data-error="Please enter mobile number"
 > - data-number='{"msg":"Please enter valid number"}'
 > - data-long='{"len":"10","msg":"Number should be 10 charators long"}'
@@ -15,3 +15,4 @@ Validate input fields using data attributes
 > - data-onlychar='{"msg":"Only charactors are allowed"}'
 > - data-charwithspace='{"msg":"Only charactors are allowed with space"}'
 > - data-email='{"msg":"Please enter valid email"}'
+> - data-radio="true"
