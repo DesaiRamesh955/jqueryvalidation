@@ -7,8 +7,13 @@ $(document).ready(() => {
         let mobile = $("#mobile")
         let pass = $("#pass")
         let repass = $("#repass")
+        let select = $("#select")
+        let radio = $(".gender")
+
 
         let status = 0
+
+
 
         if (!validate(fname)) {
             status = 0
@@ -40,9 +45,19 @@ $(document).ready(() => {
             return false
         } else { status = 1 }
 
+        if (!validate(select)) {
+            status = 0
+            return false
+        } else { status = 1 }
 
+        if (!validate(radio)) {
+            status = 0
+            return false
+        } else { status = 1 }
 
-        console.log(status)
+        if(status){
+            //AJAX Request
+        }
 
     })
 
