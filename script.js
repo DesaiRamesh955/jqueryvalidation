@@ -9,7 +9,7 @@ $(document).ready(() => {
         let repass = $("#repass")
         let select = $("#select")
         let radio = $(".gender")
-
+        let file = $("#file")
 
         let status = 0
 
@@ -54,7 +54,12 @@ $(document).ready(() => {
             status = 0
             return false
         } else { status = 1 }
-
+        
+        if (!validate(file)) {
+            status = 0
+            return false
+        } else { status = 1 }
+        
         if(status){
             //AJAX Request
         }
