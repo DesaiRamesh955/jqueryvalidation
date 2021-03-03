@@ -99,6 +99,17 @@
        <span id="radio_error"></span>
 <!------------------------------------------------------------------ -->    
       
+      <input
+        type="file"
+        id="file"
+        data-require="true"
+        data-display="file_error"
+        data-error="Please select file"
+        data-file="true"
+        data-config='{"msg":"Please chhose valid image","allow":"jpg,png,jpeg"}'
+        data-size='{"size":"2000","msg":"Too large size"}'
+      />
+      <span id="file_error"></span>
       
       
       
