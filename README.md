@@ -16,6 +16,6 @@ Validate input fields using data attributes
 > - data-charwithspace='{"msg":"Only charactors are allowed with space"}'
 > - data-email='{"msg":"Please enter valid email"}'
 > - data-radio="true"
-> - data-image="true
+> - data-file="true
 > - data-config='{"msg":"Please chhose valid image","allow":"jpg,png,jpeg"}'
 > - data-size='{"size":"2000","msg":"Too large size"}'
