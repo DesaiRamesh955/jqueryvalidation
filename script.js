@@ -1,6 +1,26 @@
 $(document).ready(() => {
     $("#form").on("submit", (e) => {
         e.preventDefault()
+        //easy way
+        const form = $("#form input, #form select")
+        let status =false
+        
+        form.each(function(){
+            if(!validate($(this))){
+               status = false
+                //you can apply custom style or animation on $(this)
+               return false
+            }else{
+                status = true
+            }
+        })
+           if(status){
+            //AJAX Request
+        }
+        
+//------------------------------------------------------------
+        
+        //one by one
         let fname = $("#fname")
         let lname = $("#lname")
         let email = $("#email")
