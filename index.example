@@ -111,8 +111,33 @@
       />
       <span id="file_error"></span>
       
+      <!------------------------------------------------------------------ -->    
+    <input
+        type="checkbox" 
+        value="cricket" 
+        name="favouriteGames[]" 
+        class="game" 
+        data-check="true" 
+        data-display="favouriteGames_error" 
+        data-error="Please select any options">  
+        
+     <input
+        type="checkbox" 
+        value="Football" 
+        name="favouriteGames[]" 
+        class="game" 
+       >  
+       
+       <input
+        type="checkbox" 
+        value="Hocket" 
+        name="favouriteGames[]" 
+        class="game" 
+       >  
+      <span id="favouriteGames_error"></span>
       
       
+   <!------------------------------------------------------------------ -->   
        <button type="submit">Submit</button>
     </form>
 
